@@ -9,6 +9,6 @@ data
 
 # Don't store other peoples' plugins or the uploads
 uploads
-plugins/geo-mashup
-plugins/slickr-flickr
-plugins/wp-scss
+wp-content/plugins/geo-mashup
+wp-content/plugins/slickr-flickr
+wp-content/plugins/wp-scss
