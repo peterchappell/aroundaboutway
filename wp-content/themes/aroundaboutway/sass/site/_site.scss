@@ -1,0 +1,21 @@
+// @import "../layout/content-sidebar";
+// @import "../layout/sidebar-content";
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+@import "primary/comments";
+
+/*--------------------------------------------------------------
+## General layout of grid etc
+--------------------------------------------------------------*/
+@import "../layout/site-general-layout";
+@import "../layout/comments";
+@import "../layout/site-branding";
+@import "../layout/post-layout";
+@import "../layout/footer";

@@ -1,0 +1,36 @@
+.page-template-page-home {
+	background-color: #fff;
+	.intro {
+		background-color: #fff;
+		margin: 0 auto;
+		max-width: 700px;
+	}
+	.hentry {
+		margin: 0;
+	}
+	.entry-content {
+		margin-top: 0;
+	}
+}
+
+.home-posts-list {
+	margin: 0 auto;
+	padding: 0 10px;
+	max-width: 700px;
+	text-align: center;
+}
+
+.home-posts-list-title {
+	font-size: 24px;
+}
+
+.post-list-item {
+	padding: 0 0 1em;
+	h1 {
+		font-size: 18px;
+		margin: 0;
+	}
+	p {
+		margin: 0;
+	}
+}

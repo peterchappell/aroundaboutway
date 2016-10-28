@@ -1,0 +1,14 @@
+.DS_Store
+.sass-cache
+
+# various bits of config and data that we don't need to keep (or don't want to have too public)
+_config
+_content
+.data
+data
+
+# Don't store other peoples' plugins or the uploads
+uploads
+plugins/geo-mashup
+plugins/slickr-flickr
+plugins/wp-scss

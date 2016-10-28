@@ -1,0 +1,41 @@
+article.type-post {
+	background-color: $color__background-entry-content;
+}
+
+.entry-header, .blogEntry, .comments-area {
+	margin: 0 auto;
+	padding: 0 10px;
+	max-width: 700px;
+}
+
+.intro {
+	background-color: $color__background-body;
+	margin: 0 auto 2em;
+	max-width: 1000px;
+	overflow: hidden;
+	padding: 10px 10px 0;
+	h2 {
+		font-size: 1em;
+		margin-top: 1em;
+	}
+	.mejs-container, .mejs-container .mejs-controls, .mejs-embed, .mejs-embed body {
+		background-color: #455A64;
+	}
+}
+
+.slickr-flickr-galleria {
+	margin: -10px -10px 0 -10px;
+}
+
+@media (min-width: 500px) {
+	.intro {
+		padding: 20px 20px 0;
+	}
+	.slickr-flickr-galleria {
+		margin: -20px -20px 0 -20px;
+	}
+}
+
+.comments-area {
+	margin: 4em auto;
+}

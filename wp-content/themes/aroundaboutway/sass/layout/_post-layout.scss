@@ -1,0 +1,65 @@
+.entry-header {
+	text-align: center;
+}
+
+.single-post .entry-content {
+	margin-bottom: 4em;
+}
+
+.entry-header {
+	overflow: hidden;
+}
+
+.blogEntry {
+	position: relative;
+	h1 {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 500px) {
+	.blogEntry .author:before {
+		background-color: #ccc;
+		background-size: cover;
+		border-radius: 50%;
+		content: "";
+		display: inline-block;
+		height: 40px;
+		margin: 0 10px 0 0;
+		vertical-align: middle;
+		width: 40px;		
+	}
+	.blogEntry.susan .author:before {
+		background-image: url('images/headshot-susan.jpg');
+	}
+
+	.blogEntry.pete .author:before {
+		background-image: url('images/headshot-pete.jpg');
+	}
+}
+
+@media (min-width: 501px) {
+	.blogEntry {
+		padding-left: 100px;
+	}
+	.blogEntry:before {
+		background-color: #ccc;
+		background-size: cover;
+		border-radius: 50%;
+		content: "";
+		display: block;
+		height: 80px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 80px;
+	}
+
+	.blogEntry.susan:before {
+		background-image: url('images/headshot-susan.jpg');
+	}
+
+	.blogEntry.pete:before {
+		background-image: url('images/headshot-pete.jpg');
+	}
+}

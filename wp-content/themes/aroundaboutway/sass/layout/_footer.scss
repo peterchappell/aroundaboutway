@@ -1,0 +1,19 @@
+.site-info {
+	font-size: 12px;
+	text-align: center;
+	margin: 0.5em;
+}
+
+.footer-decoration {
+	margin: 1em auto;
+	text-align: center;
+	width: 160px;
+	.dot {
+		background-color: #CFD8DC;
+		border-radius: 50%;
+		display: inline-block;
+		height: 8px;
+		margin: 0 6px;
+		width: 8px;
+	}
+}

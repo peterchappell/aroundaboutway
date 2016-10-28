@@ -1,0 +1,56 @@
+.site-branding {
+	background-color: $color__branding;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+	overflow: hidden;
+	padding: 5px 10px 10px;
+	text-align: center;
+	z-index: 100;
+}
+
+.site-description {
+	color: #fff;
+	font-size: 12px;
+	margin: 0;
+}
+
+.site-title {
+	font-family: $font__headings;
+	font-size: 24px;
+	margin: 0;
+	a {
+		color: #fff;
+		display: block;
+		height: 43px;
+		line-height: 40px;
+		padding: 0 10px;
+		text-decoration: none;
+	}
+}
+
+@media (min-width: 620px) {
+	.site-branding {
+		height: 40px;
+		left: 0;
+		line-height: 40px;
+		padding: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+	}
+	.site-header {
+		height: 40px;
+	}
+	.branding-logo-link {
+		float: left;
+	}
+	.site-description {
+		float: right;
+		font-size: 14px;
+		margin: 0 10px 0 0;
+	}
+	.site-title {
+		float: left;
+		margin: -3px 0 0;
+	}
+}
+
